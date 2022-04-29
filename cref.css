@@ -1,0 +1,127 @@
+
+	/* cref [computer referensi] = desain bagian daftar materi di laptop */
+	
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Cambria, Verdana, Geneva, "Times New Roman", Helvetica, Arial, sans-serif;
+	background-color: #EFF;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background-color: black;
+	height: 80px;
+	line-height: 80px;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	text-shadow: 2.5px -2px 5px #53E6BE;
+}
+
+main {
+	width: 100%;
+}
+
+nav {
+	background-color: #FFB;
+}
+
+nav ul {
+	padding: 15px 10px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none inside;
+	border: 2px ridge black;
+	border-radius: 10px;
+	padding: 5px 3%;
+	margin: 0 3%;
+	font-weight: bold;
+	cursor: pointer;
+	color: black;
+	font-size: 22px;
+}
+
+nav ul li:hover {
+	background-color: red;
+	transition: 1.3s;
+	color: #E5FFFF;
+}
+
+nav ul a.icon {
+	display: none;
+}
+
+main article section {
+	width: 33.33333334%;
+	float: left;
+	padding: 30px 3%;
+}
+
+section#mid {
+	border-width: 0 5px;
+	border-style: solid;
+	border-color: gray;
+}
+
+article h1 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+details > summary {
+	font-size: 20px;
+}
+
+details {
+	margin: 20px 0;
+}
+
+details:hover {
+	cursor: pointer;
+}
+
+section ul {
+	list-style: none inside;
+	margin-left: 5%;
+	font-size: 18px;
+}
+
+section ul li {
+	margin: 10px 0;
+}
+
+section ul li::before {
+	content: '>>';
+	color: #E90;
+	font-weight: bold;
+}
+
+hr {
+	max-width: 60%;
+	margin: 10px 0 20px;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	clear: both;
+	text-shadow: 2px -1px 2px #53E6BE;
+}

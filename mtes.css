@@ -1,0 +1,176 @@
+
+	/* mtes [mobile tes] = menentukan desain web soal di smartphone */
+	
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Cambria, Verdana, Geneva, "Times New Roman", Helvetica, Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #FFE;
+}
+
+
+		@media only screen and (max-width: 430px){
+			header {
+				background-color: black;
+				height: 45px;
+				line-height: 45px;
+				font-size: 30px;
+				text-align: center;
+				color: white;
+				text-shadow: 2.5px -2px 2.5px #53E6BE;
+			}
+			
+			hr {
+				max-width: 70%;
+				margin: 10px 0 20px;
+			}
+			
+			footer {
+				font-size: 17px;
+			}
+		}
+
+
+		@media only screen and (min-width: 431px) and (max-width: 768px){
+			header {
+				background-color: black;
+				height: 60px;
+				line-height: 60px;
+				font-size: 40px;
+				text-align: center;
+				color: white;
+				text-shadow: 2.5px -2px 3px #53E6BE;
+			}
+			
+			hr {
+				max-width: 60%;
+				margin: 10px 0 20px;
+			}
+			
+			footer {
+				font-size: 20px;
+			}
+		}
+
+
+main article {
+	width: 100%;
+	padding: 5% 10%;
+	margin: 20px 0 10px;
+	clear: both;
+	border-bottom: 5px solid gray;
+}
+
+#up {
+	max-width: 300px;
+	text-align: center;
+	margin: 20px 15px 5px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#up h1 {
+	border-bottom: 1px solid black;
+	padding: 8px 0;
+	font-size: 25px;
+}
+
+#up h3 {
+	border-top: 1px solid black;
+	padding: 4px 0;
+	font-size: 20px;
+}
+
+article section {
+	margin: 10px;
+	padding: 10px 15px;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+article section h4 {
+	font-size: 20px;
+	padding: 5px 0 10px;
+}
+
+article section p {
+	padding: 15px 10px;
+	font-size: 20px;
+	background-color: #E3E3E3;
+	border-left: 4px solid black;
+}
+
+article section ul {
+	list-style: none inside;
+}
+
+article section li {
+	padding: 7px 0;
+}
+
+article section label {
+	padding: 7px 7% 7px 10px;
+	font-size: 18px;
+}
+
+article section input[type='radio'] {
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+button.cek {
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+main aside {
+	width: 100%;
+	padding: 20px 15%;
+	margin: 0 0 20px;
+	clear: both;
+}
+
+aside h3 {
+	text-align: center;
+	font-size: 25px;
+	padding: 0 5%;
+}
+
+aside p.note {
+	font-size: 18px;
+	padding: 0 5%;
+}
+
+aside p.out {
+	margin: 10px 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+aside center button {
+	font-size: 18px;
+	padding: 5px 10px;
+	margin: 10px 1%;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	clear: both;
+	text-shadow: 2px -1px 2px #53E6BE;
+}

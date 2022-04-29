@@ -1,0 +1,195 @@
+
+	/* mart [mobile article] = menentukan desain tiap artikel di smartphone */
+	
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Cambria, Verdana, Geneva, "Times New Roman", Helvetica, Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #FFE;
+}
+
+
+		@media only screen and (max-width: 430px){
+			header {
+				background-color: black;
+				height: 45px;
+				line-height: 45px;
+				font-size: 30px;
+				text-align: center;
+				color: white;
+				text-shadow: 2.5px -2px 2.5px #53E6BE;
+			}
+			
+			hr {
+				max-width: 70%;
+				margin: 10px 0 20px;
+			}
+			
+			#out {
+				padding: 25px 10px;
+			}
+			
+			#out button {
+				margin: 10px;
+			}
+			
+			#read h2 {
+				font-size: 22px;
+			}
+			
+			#read p {
+				font-size: 18px;
+			}
+			
+			#read ul {
+				font-size: 17px;
+			}
+			
+			#link h2 {
+				font-size: 20px;
+			}
+			
+			#link ul {
+				font-size: 17px;
+			}
+			
+			footer {
+				font-size: 17px;
+			}
+		}
+
+
+		@media only screen and (min-width: 431px) and (max-width: 768px){
+			header {
+				background-color: black;
+				height: 60px;
+				line-height: 60px;
+				font-size: 40px;
+				text-align: center;
+				color: white;
+				text-shadow: 2.5px -2px 3px #53E6BE;
+			}
+			
+			hr {
+				max-width: 60%;
+				margin: 10px 0 20px;
+			}
+			
+			#out button {
+				margin: 25px 20px;
+			}
+			
+			#read p {
+				font-size: 20px;
+			}
+			
+			#read ul {
+				font-size: 18px;
+			}
+			
+			#link h2 {
+				font-size: 22px;
+			}
+			
+			#link ul {
+				font-size: 18px;
+				padding: 0 6%;
+			}
+			
+			footer {
+				font-size: 20px;
+			}
+		}
+
+
+main {
+	width: 100%;
+}
+
+#out {
+	max-width: 100%;
+}
+
+#out button {
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+#out a {
+	font-size: 17px;
+}
+
+
+#read {
+	max-width: 100%;
+	padding: 0 10%;
+}
+
+#read h1 {
+	text-align: center;
+	font-size: 25px;
+	padding: 20px 0;
+	border-bottom: 2px solid black;
+}
+
+#read h2 {
+	text-align: left;
+	padding: 30px 0 0 20px;
+}
+
+#read p {
+	text-indent: 20px;
+	margin: 25px 0;
+}
+
+#read ul {
+	list-style: square inside;
+}
+
+#read li {
+	margin: 15px 0;
+}
+
+#link {
+	padding: 30px 10%;
+}
+
+#link h2 {
+	 margin: 25px 0;
+}
+
+#link ul {
+	list-style: none inside;
+	margin-bottom: 40px;
+}
+
+#link li {
+	margin: 15px 0;
+}
+
+#link ul li::before {
+	content: "--> ";
+	color: red;
+	font-weight: bolder;
+	
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	clear: both;
+	text-shadow: 2px -1px 2px #53E6BE;
+}

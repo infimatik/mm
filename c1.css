@@ -1,0 +1,124 @@
+
+	/* cart [computer article] = menentukan desain tiap artikel di laptop */
+	
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Cambria, Verdana, Geneva, "Times New Roman", Helvetica, Arial, sans-serif;
+	background-color: #EFF;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background-color: black;
+	height: 80px;
+	line-height: 80px;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	text-shadow: 2.5px -2px 5px #53E6BE;
+}
+
+main {
+	width: 100%;
+}
+
+#out {
+	float: left;
+	width: 15%;
+	padding: 25px 10px;
+}
+
+#out button {
+	padding: 5px 10px;
+	margin: 25px 0;
+	border-radius: 10px;
+}
+
+#out a {
+	font-size: 18px;
+}
+
+#read {
+	float: left;
+	max-width: 60%;
+	border-width: 0 4px;
+	border-style: solid;
+	border-color: gray;
+	padding: 50px 8%;
+}
+
+#read h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 0;
+	border-bottom: 2px solid black;
+}
+
+#read h2 {
+	text-align: left;
+	padding: 40px 0 0 20px;
+}
+
+#read p {
+	font-size: 20px;
+	text-indent: 30px;
+	margin: 25px 0;
+}
+
+#read ul {
+	list-style: square inside;
+	font-size: 18px;
+}
+
+#read li {
+	margin: 15px 0;
+}
+
+#link {
+	float: left;
+	max-width: 25%;
+	padding: 3%;
+}
+
+#link h2 {
+	 font-size: 22px;
+	 margin: 30px 0;
+}
+
+#link ul {
+	list-style: none inside;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+#link li {
+	margin: 20px 0;
+}
+
+#link ul li::before {
+	content: "--> ";
+	color: red;
+	font-weight: bolder;
+	
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px;
+	clear: both;
+	text-shadow: 2px -1px 2px #53E6BE;
+}
